@@ -83,35 +83,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______, _______,   _______, _______, _______, _______, _______, _______, DF(_base)
     )
 };
-const float width = 17.23077
-
-led_config_t g_led_config = { {
-// Key Matrix to LED Index
-{ 0, 1, 2, 3, 4, 5, 6 },
-{ 13, 12, 11, 10, 9, 8, 7 },
-{ 14, 15, 16, 17, 18, 19, 20 },
-{ 27, 26, 25, 24, 23, 22, 21 },
-{ 28, 29, 30, 31, 32, 33, 34 },
-{ 35, 36, 37, 38, 39, 40, 41 },
-{ 42, 43, 44, 45, 46, 47, 48 },
-{ 49, 50, 51, 52, 53, 54, 55 },
-{ 56, 57, 58, 59, 60, 61, 62 },
-{ 63, 64, 65, 66, 67, 68, 69 }
-}, {
-// LED Index to Physical Position
-{ (int)(width * 6),  0  },  { (int)(width * 5),  0  },  { (int)(width * 4),  0  },  { (int)(width * 3),  0  }, { (int)(width * 2),  0  },  { (int)(width * 1), 0  },  {0, 0  },
-{ (int)(width * 6),  16 },  { (int)(width * 5),  16 },  { (int)(width * 4),  16 },  { (int)(width * 3),  16 }, { (int)(width * 2),  16 },  { (int)(width * 1), 16 },  {0, 16 },
-{ (int)(width * 6),  32 },  { (int)(width * 5),  32 },  { (int)(width * 4),  32 },  { (int)(width * 3),  32 }, { (int)(width * 2),  32 },  { (int)(width * 1), 32 },  {0, 32 },
-{ (int)(width * 6),  48 },  { (int)(width * 5),  48 },  { (int)(width * 4),  48 },  { (int)(width * 3),  48 }, { (int)(width * 2),  48 },  { (int)(width * 1), 48 },  {0, 48 },
-{ (int)(width * 6),  64 },  { (int)(width * 5),  64 },  { (int)(width * 4),  64 },  { (int)(width * 3),  64 }, { (int)(width * 2),  64 },  { (int)(width * 1), 64 },  {0, 64 },
-
-{ (int)(width * 13),  0  },  { (int)(width * 12),  0  },  { (int)(width * 11),  0  },  { (int)(width * 10),  0  }, { (int)(width * 9),  0  },  { (int)(width * 8), 0  }, { (int)(width * 7), 0 },
-{ (int)(width * 13), 16  },  { (int)(width * 12), 16  },  { (int)(width * 11),  16  },  { (int)(width * 116),  16  }, { (int)(width * 9),  16  },  { (int)(width * 8), 16  }, { (int)(width * 7), 16 },
-{ (int)(width * 13), 32  },  { (int)(width * 12),  32 },  { (int)(width * 11),  32 },  { (int)(width * 10),  32 }, { (int)(width * 9),  32 },  { (int)(width * 8), 32 }, { (int)(width * 7), 32},
-{ (int)(width * 13),  48  },  { (int)(width * 12),  48  },  { (int)(width * 11),  48  },  { (int)(width * 148),  48  }, { (int)(width * 9),  48  },  { (int)(width * 8), 48  }, { (int)(width * 7), 48 },
-{ (int)(width * 13),  64  },  { (int)(width * 12),  64  },  { (int)(width * 11),  64  },  { (int)(width * 164),  64  }, { (int)(width * 9),  64  },  { (int)(width * 8), 64  }, { (int)(width * 7), 64 }
-}, {
-// LED Index to Flag
-4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
-4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
-} };
